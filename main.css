@@ -1,0 +1,353 @@
+/*  გლობალური სტილები  */
+
+.font-worksans {
+	font-family: "WorkSans-Regular";
+}
+
+.font-monserrat {
+	font-family: "Montserrat-Medium";
+}
+
+.font-nunitosans {
+	font-family: "NunitoSans-Regular";
+}
+
+
+img {
+	width: 100%;
+	
+}
+
+.banner-wrapper{
+	height: 50%;
+}
+
+.banner1 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+}
+
+.container-wide {
+	padding: 0 5%;
+}
+
+
+.flex {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+
+.justify-between {
+	justify-content: space-between;
+}
+
+
+.align-center {
+	align-items: center;
+}
+
+
+body {
+	color: #black;
+	font-family: "Montserrat-Medium";
+	font-size: 16px;
+}
+
+
+.title {
+	font-size: 30px;
+	text-align: center;
+}
+
+
+.description {
+	color: #787878;
+	font-family: "NunitoSans-Regular";
+	text-align: center;
+	line-height: 24px;
+	margin: 37px 0;
+}
+
+
+
+
+
+/*  END: გლობალური სტილები  */
+
+
+
+
+
+
+header {
+	margin-top: 35px;
+}
+
+#logo {
+	width: 31px;
+}
+
+#menu-nav li {
+	text-transform: uppercase;
+	font-size: 12px;
+}
+
+
+
+#menu-nav li:last-of-type {
+	margin-right: 0px;
+}
+
+
+
+#menu-nav li:hover,
+#menu-nav li.active {
+	color: #498b65;
+}
+
+
+#banner-wrapper {
+	position: relative;
+	top: -63px;
+	z-index: -1;
+}
+
+
+#signature-img {
+	width: 220px;
+	display: block;
+	margin: auto;
+	margin-bottom: 40px;
+}
+
+
+
+#about-wrapper {
+	margin: auto;
+	padding: 37px 0 100px 0;
+}
+
+.in-the-middle {
+	background-color: #498b65;
+	height: 200px;
+	display: flex;
+	align-items: center;
+	justify-content: space-evenly;
+}
+
+.panel-links {
+	margin: 90px;
+	color: white;
+}
+
+#v-section {
+	height: 800px;
+}
+
+.v-section-text {
+	position: absolute;
+	left: 400px;
+	margin-top: 120px;
+}
+
+h3 {
+	font-size: 30px;
+	text-align: center;
+	margin-bottom: 8px;
+}
+
+.video-tag {
+	position: absolute;
+	padding-top: 240px;
+	left: 250px;
+	padding-bottom: 110px;
+}
+
+
+.v-section-p {
+	font-family: NunitoSans-Regular;
+	font-size: 16px;
+	text-align: center;
+	color: #787878;
+	padding-bottom: 80px;
+}
+
+
+
+.in-the-middle-2 {
+	height: 400px;
+	background-color: #498b65;
+	align-items: center;
+	text-align: center;
+
+}
+
+h2 {
+	color: white;
+	text-align: center;
+	font-size: 24px;
+	padding-top: 150px;
+}
+
+.in-the-middle-2 {
+	font-size: 12px;
+	color: white;
+	padding-top: 25px;
+}
+
+.logo-panel {
+	height: 0%;
+	width: 100%;
+}
+
+.container {
+	background-color: #eeeded;
+	height: 720px;
+}
+
+#black {
+	color: black;
+}
+
+
+input {
+    border: none;
+	height: 35px;
+	margin-right: 18px;
+}
+
+textarea {
+	border: none;
+	margin-left: 480px;
+	padding-right: 350px;
+}
+
+#your-name, #your-title {
+	margin-left: 480px;
+	padding-right: 120px;
+	
+}
+
+#your-title{
+	padding-right: 425px;
+}
+
+
+#your-email {
+	padding-right: 120px;
+}
+
+
+input[type=submit] {
+	margin-left: 680px;
+    width: 180px;
+    height: 55px;
+    border: none;
+    color: white;
+    cursor: pointer;
+    padding: 22px 35px;
+	background-color: #498b65;
+	font-size: 12px;
+	text-transform: uppercase;
+	color: #fff;
+	letter-spacing: 2px;
+}
+
+.facebook {
+  position: absolute;
+  left: 1443px;
+  width: 200px;
+  height: 120px;
+
+}
+
+
+footer {
+	background-color: #141414;
+	padding: 70px;
+}
+
+footer h4 {
+	color: #fff;
+	font-size: 18px;
+	padding-bottom: 27px;
+}
+
+footer p {
+	color: #BCBCBC;
+	font-size: 17px;
+	padding-bottom: 12px;
+}
+
+footer p:last-of-type {
+	padding-bottom: 0;
+}
+
+
+
+
+
+
+
+
+/*  media tags  */
+
+
+/*  xxs ---  0px - 425px    */
+
+@media screen and (min-width: 0px) {
+
+
+	#about-wrapper {
+		width: 80%;
+	}
+
+	#menu-nav li {
+		margin-right: 20px;
+	}
+
+}
+
+
+
+/*  extra small == mobile (bootstrap xs) ---  426px - 767px    */
+
+@media screen and (min-width: 426px) {}
+
+
+
+/*  small == tablet (bootstrap sm) ---  768px - 991px    */
+
+@media screen and (min-width: 768px) {
+
+	#about-wrapper {
+		width: 60%;
+	}
+
+	#menu-nav li {
+		margin-right: 30px;
+	}
+
+}
+
+
+
+/*  medium == notebook small (bootstrap md) ---  992px - 1199px    */
+
+@media screen and (min-width: 992px) {}
+
+
+
+/*  large == notebook large (bootstrap lg) ---  1200px +   */
+
+@media screen and (min-width: 1200px) {
+
+
+	#about-wrapper {
+		width: 45%;
+	}
+
+}
